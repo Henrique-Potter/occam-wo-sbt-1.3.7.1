@@ -3,5 +3,24 @@
   "type": "library",
   "authors": [
     "QmZc6nWRX4NHqSSugP6SDmgQwEnaLw7iXioD9cbgorUnbH"
+  ],
+  "includes": [
+    {
+      "name": "sbt",
+      "type": "runtime",
+      "init": {
+        "link": [
+          {
+            "source": "usr/share/sbt/bin/sbt",
+            "to": "/usr/share/sbt/bin/sbt"  
+          }
+        ]
+      },
+      "run": {
+        "command": [
+          "usr/share/sbt/bin/sbt"
+        ]
+      }
+    }
   ]
 }
