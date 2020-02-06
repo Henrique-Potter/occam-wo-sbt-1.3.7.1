@@ -1,9 +1,6 @@
 {
   "name": "sbt-1.3.7.1",
-  "type": "library",
-  "authors": [
-    "QmZc6nWRX4NHqSSugP6SDmgQwEnaLw7iXioD9cbgorUnbH"
-  ],
+  "type": "runtime",
   "includes": [
     {
       "name": "sbt",
